@@ -11,7 +11,7 @@ namespace azexample
     public static class DefenderEventHandler
     {
         [FunctionName("DefenderEventHandler")]
-        public static void Run([EventGridTrigger]EventGridEvent eventGridEvent, ILogger log)
+        public static void Run([EventGridTrigger] EventGridEvent eventGridEvent, ILogger log)
         {
             log.LogInformation(eventGridEvent.Data.ToString());
         }

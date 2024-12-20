@@ -7,6 +7,15 @@
                 "excludedTypes": "Request"
             },
             "enableLiveMetricsFilters": true
+        }, 
+        "console": {
+            "isEnabled": true,
+            "loggingLevel": {
+                "default": "Information",
+                "Host.Results": "Error",
+                "Function": "Information",
+                "Host.Aggregator": "Trace"
+            }
         }
     }
 }
